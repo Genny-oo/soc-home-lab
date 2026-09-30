@@ -1,5 +1,9 @@
 # Apple Silicon Home SOC Lab
 
+## Visual demo
+
+[**View the screenshots and verified demonstration →**](docs/demo/README.md)
+
 An in-progress home Security Operations Center (SOC) lab built to develop practical skills in security telemetry collection, detection engineering, and alert investigation.
 
 ## Project goal
@@ -35,7 +39,8 @@ flowchart LR
 - [x] Generated the Wazuh deployment certificates and accessed the Dashboard.
 - [x] Established Ubuntu VM host-only connectivity for administration.
 - [x] Moved pfSense provisioning to UTM for Apple Silicon compatibility.
-- [ ] Enroll the Ubuntu endpoint as a Wazuh agent and validate event ingestion.
+- [x] Enroll the Ubuntu endpoint as a Wazuh agent and validate events at the manager (verified September 30, 2026).
+- [x] Validate SSH failed-login decoding and rule matching with a synthetic logtest input.
 - [ ] Forward pfSense firewall logs to Wazuh.
 - [ ] Add Suricata EVE JSON telemetry.
 - [ ] Configure FIM, Sysmon, and safe detection demonstrations.
