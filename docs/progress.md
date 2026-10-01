@@ -55,6 +55,6 @@ This is a design decision, not a shortcut: it reflects a real-world constraint o
 Before publishing any screenshot, log, configuration, or diagram, redact credentials, API keys, public IPs, hostnames, personally identifiable information, and any sensitive local network details.
 
 
-## September 30, 2026 verification
+
 
 After starting Docker Desktop and the Ubuntu VM, agent 001 reported Active. Actual endpoint rootcheck events appeared in the manager alert file. A separate synthetic failed-login log matched rule 5710 through wazuh-logtest. See the [visual evidence](demo/README.md). The earlier endpoint-enrollment milestone above is now complete; Dashboard investigation, firewall syslog and Suricata demonstrations remain future work.
