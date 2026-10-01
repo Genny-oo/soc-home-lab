@@ -1,6 +1,6 @@
 # SOC lab visual evidence
 
-Captured September 30, 2026 from the running Wazuh 4.14.6 stack on Docker Desktop and its Ubuntu VM endpoint.
+Captured from the running Wazuh 4.14.6 stack on Docker Desktop and its Ubuntu VM endpoint.
 
 This is a **sanitized evidence view of actual backend output**, not a screenshot of the Wazuh Dashboard. The accompanying [JSON evidence](evidence.json) and [raw synthetic rule-test output](rule-test.txt) support the results shown. Hostnames, IP addresses and raw endpoint event bodies are omitted from the published endpoint evidence.
 
